@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .background {
+            background-color: darkseagreen;
+        }
+    </style>
 </head>
-  <body>
+    <body class="background">
       <div class="container" style="text-align: center;">
         <div class="row">
             <div class="col-md-3"></div>
@@ -23,66 +28,6 @@
         </div>
       </div>
    
-    <script>
-        var questions = [
-         {
-          question: "Is the Sky Blue?",
-          answers: ["True", "False"],
-          correctAnswer: "True",
-         },
-         {
-          question: "Is the Sand Tan?",
-          answers: ["True", "False"],
-          correctAnswer: "True",
-         },
-         {
-          question: "Is the Grass Green?",
-          answers: ["True", "False"],
-          correctAnswer: "True",
-         },
-         {
-          question: "Is an Orange Orange?",
-          answers: ["True", "False"],
-          correctAnswer: "True",
-         },
-         {
-          question: "A Peach has a Pit?",
-          answers: ["True", "False"],
-          correctAnswer: "True",
-         },
-        ];
-
-        var questionIndex = 0;
-
-        var time = 100;
-        var $timer = document.querySelector("#timer");
-        $timer.textContent = time;
-        var timer = setInterval(function(){
-            time--;
-            $timer.textContent = time;
-        }, 1000);
-
-        function renderQuestion(){
-            var question = questions[questionIndex];
-            var $question = document.querySelector("#question");
-            var $answers = document.querySelector("#answers");
-            $question.textContent = question.question;
-            $answers.innerHTML = "";
-            for(var i = 0; i < question.answers.length; i++){
-                var $btn = document.createElement("button");
-                $btn.textContent = question.answers[i];
-                $btn.setAttribute("class", "btn btn-success ml-3 mt-3 pl-5 pr-5");
-                $answers.append($btn);
-            }
-        };
-        document
-            .querySelector("#answers")
-            .addEventListener("click", function(e){
-                if (!e.target.matches("button")) return; 
-                questionIndex++;
-                renderQuestion();
-            });
-        renderQuestion();
-    </script>
-  </body>
+      <script src="script.js"></script>
+    </body>
 </html>       
