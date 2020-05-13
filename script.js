@@ -29,7 +29,7 @@ var questions = [
 
    var questionIndex = 0;
    
-   var time = 10;
+   var time = 30;
    var $timer = document.querySelector("#timer");
    $timer.textContent = time;
    var timer = setInterval(function(){

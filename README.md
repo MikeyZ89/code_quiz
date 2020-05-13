@@ -10,7 +10,7 @@ I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 ```
 I tried to focus on the basic principles, i have scheduled time with tutors to cover JavaScript and the use of loops.
-I was not ablt to achieve the basic criteria, I will still be working on this project. 
+I was not able to achieve the basic criteria, I will still be working on this project. 
 
 ## Acceptance Criteria
 
