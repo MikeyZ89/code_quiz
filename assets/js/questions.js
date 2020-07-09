@@ -1,44 +1,44 @@
 // The array of questions for our quiz game.
 var questions = [
     {
-      title: "What is JavaScript?",
+      title: "What is the Capital of South Dakota",
       choice: [
-        "The standard markup language for Web pages",
-        "The programming language of HTML and the Web",
-        "A coffee shop that is for play script writers",
-        "A language that describes the style of an HTML document",
+        "Sturgis",
+        "Brookings",
+        "Sioux Falls",
+        "Pierre",
       ],
-      answer: "The programming language of HTML and the Web",
+      answer: "Pierre",
     },
     {
-      title: "Who invented JavaScript?",
-      choice: ["George Washington", "Donald Trump", "Bill Gates", "Brendan Eich"],
-      answer: "Brendan Eich",
+      title: "What is the Capital of Nebraska?",
+      choice: ["Omaha", "Norfolk", "Lincoln", "Nebraska City"],
+      answer: "Lincoln",
     },
     {
       title:
-        "What is a single variable that is used to store different elements?",
-      choice: ["Array", "Method", "For Loop", "Console Log"],
-      answer: "Array",
+        "What is the Capital of Idaho?",
+      choice: ["Coeur d'Alene", "Boise", "Twin Falls", "Pocatello"],
+      answer: "Boise",
     },
     {
-      title: "What does DOM stand for?",
+      title: "What is the Largest Mountain in the World?",
       choice: [
-        "Declaration of Method",
-        "Document Object Modes",
-        "Dreaded Object Model",
-        "Date of Manufacture",
+        "K2",
+        "Cho Oyu",
+        "Nanga Parbat",
+        "Mount Everest",
       ],
-      answer: "Document Object Modes",
+      answer: "Mount Everest",
     },
     {
-      title: "What is a boolean?",
+      title: "Where is the Largest Ball of Yarn Located?",
       choice: [
-        "A phantom that likes to lean",
-        "A fatal mistake made in JavaScript",
-        "One of Tucker's pets",
-        "Values that can be only one of two things: true or false",
+        "Nova Scotia",
+        "Black Hills",
+        "New Mexico",
+        "Cawker City",
       ],
-      answer: "Values that can be only one of two things: true or false",
+      answer: "Cawker City",
     },
   ];
