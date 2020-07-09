@@ -1,4 +1,3 @@
-
 # code_quiz
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/MikeyZ89/code_quiz) 
